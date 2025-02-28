@@ -14,6 +14,9 @@ public class Airport {
  @Id
  @GeneratedValue(strategy = GenerationType.IDENTITY)
  private long id;
+
+    public Airport() {
+    }
  private String name;
  private String city;
  private String country;
